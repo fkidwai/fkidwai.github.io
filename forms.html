@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Open+Sans&display=swap"
+            rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style/default.css">
+        <!-- Title -->
+        <title>Fawazullah Kidwai's Fierce Falcon | ITIS-3135 | Form</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Menu -->
+            <script src="scripts/header.js"></script>
+        </header>
+        <main>
+            <h2>Form</h2>
+            <form class="forms" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required size="30" placeholder="Enter your name">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" required size="30" placeholder="Enter your phone number">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required size="30" placeholder="Enter your email address">
+                <br>
+
+                <br>
+                <label for="checkbox">Pick one or multiple toppings:</label> <br>
+
+                <input type="checkbox" id="checkbox" name="cheese" value="Cheese">
+                <label for="cheese">Cheese</label><br>
+                <input type="checkbox" id="green pepper" name="green pepper" value="Green Pepper">
+                <label for="green pepper">Green Pepper</label><br>
+                <input type="checkbox" id="onion" name="onion" value="Onion">
+                <label for="onion">Onion</label><br>
+                <input type="checkbox" id="mushroom" name="mushroom" value="Mushroom">
+                <label for="mushroom">Mushroom</label><br>
+                <br>
+
+                <label for="radio">Please select your crust</label><br>
+                <input type="radio" id="hand tossed" name="crust" value="Hand Tossed" required>
+                <label for="hand tossed">Hand Tossed</label> <br>
+                <input type="radio" id="pan" name="crust" value="Pan" required>
+                <label for="pan">Pan</label><br>
+                <input type="radio" id="thin crust" name="crust" value="Thin Crust" required>
+                <label for="thin crust">Thin Crust</label><br>
+                <input type="radio" id="brooklyn style" name="crust" value="Brooklyn Style" required>
+                <label for="brooklyn style">Brooklyn Style</label><br>
+                <input type="radio" id="doughy" name="crust" value="Doughy" required>
+                <label for="doughy">Doughy</label><br>
+                <input type="radio" id="cauliflower crust" name="crust" value="Cauliflower Crust" required>
+                <label for="Cauliflower Crust">Cauliflower Crust</label><br>
+                <br>
+
+                <label for="select">Select One Size:</label>
+                <select name="select" id="select" required>
+                    <option value="">Small</option>
+                    <option value="">Medium</option>
+                    <option value="">Large</option>
+                </select>
+                <br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            <script src="scripts/footer.js"></script>
+        </footer>
+        <script src="scripts/include.js"></script>
+
+    </body>
+
+</html>

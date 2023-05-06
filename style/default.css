@@ -1,0 +1,438 @@
+/* index */
+html {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	font-size: 1rem;
+	margin: 0 auto;
+  }
+  
+  h1,
+  h2 {
+	text-align: center;
+  }
+  
+  nav {
+	text-align: center;
+  }
+  
+  a {
+	color: #CCD5AE;
+	text-decoration: none;
+	font-size: 1.2em;
+  }
+  
+  p {
+    text-align: center;
+	font-size: 1.2em;
+  }
+  
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* header */
+  header {
+	background-color: #D4A373;
+	padding: 50px;
+	text-align: center;
+  }
+  
+  #mainMenu,
+  #secondaryMenu {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  .dropbtn {
+	background-color: transparent;
+	border: none;
+	color: #CCD5AE;
+	font-size: 1.2em;
+	cursor: pointer;
+	font-family: "nanum pen script";
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+	/* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+	min-width: 160px;
+	width: 200px;
+	padding: 5px 0;
+	border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+	display: block;
+	padding: 5px 10px;
+	color: #CCD5AE;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .fa-solid {
+	font-family: "Nanum Pen Script";
+	font-weight: 300;
+	margin-left: 5px;
+  }
+  
+  .fa-caret-down::before {
+	content: "\f13a";
+  }
+  
+  footer {
+	text-align: center;
+  }
+  
+  /* Introduction */
+  .intro-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  .panda {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+  }
+  
+  /*  */
+/* CALCULATOR STYLES */
+/*  */
+
+.calculator {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #f09a19e7;
+    border-radius: 15px;
+    background-color: #2176c1;
+    box-shadow: 0px 0px 10px #cccccca2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#result {
+    width: 225px;
+    height: 50px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(163, 165, 167);
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+
+}
+
+
+/*  */
+/* CONTRACT STYLES */
+/*  */
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+@media (max-width: 850px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 100px;
+    }
+  }
+
+  .img-cap {
+	text-align: center;
+	/* change the space between caption and image */
+	padding-top: 5px;
+	font-style: italic;
+  }
+  
+  .quote {
+	text-align: center;
+	font-size: 1.5em;
+	font-style: italic;
+  }
+  
+  .intro-background {
+	font-weight: bold;
+	text-align: center;
+  }
+  
+  .intro-text {
+	font-size: 1.2em;
+	padding-left: 80px;
+  }
+  
+  .courses {
+	padding-left: 80px;
+  }
+  
+  /*  */
+/* ARRAYS STYLES */
+/*  */
+
+.arrName, .arrSal, .arrNameList {
+    width:300px;
+    display: inline-block;
+}
+
+  /* Contract */
+  .contract-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  /* Tables */
+  .table-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  #menu {
+	color: #CCD5AE;
+	text-decoration: none;
+	font-size: 1.2em;
+  }
+  
+  .table-table {
+	font-size: 2em;
+	color: purple;
+	text-align: center;
+  }
+  
+  h3 {
+	color: purple;
+	font-size: 1.5em;
+	text-align: center;
+  }
+  
+  table {
+	font-family: sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	color: green;
+  }
+  
+  td,
+  th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+  }
+  
+  ul {
+	color: tomato;
+  }
+  
+  ol {
+	color: sienna;
+  }
+  
+  footer {
+	text-align: center;
+  }
+  
+  .mySlides,
+.mySlides1 {
+    display: none;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    left: 0;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+}
+
+.next {
+    cursor: pointer;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    font-size: 18px;
+    color: white;
+    margin-top: -22px;
+    font-weight: bold;
+}
+
+.caption_slide {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.counter_slide {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+  /* Forms */
+  input[type=password] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  border: 2px solid #ccc;
+	  -webkit-transition: 0.5s;
+	  transition: 0.5s;
+	  outline: none;
+  }
+  input[type=password]:focus {
+	  border: 3px solid #555;
+  }
+  input[type=submit] {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+  }
+  input[type=reset] {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+  }
+  
+  .forms{
+	  text-align: center;
+	  color: purple;
+	  font-size: 1.5em;
+  }
+  
+  
+  /* Website Evaluation */
+  .crap-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  /* First-Script */
+  .first-script-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  /* Polygon */
+  .polygon {
+	margin: 0 auto;
+	width: 80%;
+  }
+  
+  /* Calculator-Try */
+  .cal-try-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  /* Calculator-FCC */
+  .cal-fcc-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  /* Arrays */
+  .arrays-body {
+	background-color: #D4A373;
+	font-family: 'Unbounded', cursive;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+  }
+  
+  /* SlideShow */
+  .natureImage {
+	/* width: 300;
+	  height: 300; */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 0 auto;
+  }
+  
