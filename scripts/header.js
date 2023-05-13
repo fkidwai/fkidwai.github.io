@@ -15,10 +15,13 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="polygons.html">Polygons</a> |
         <a href="arrays.html">Arrays</a> |
         <a href="slideshow.html">Slideshow</a> |
-        <a href="project1.html">Project Design</a>
+        <a href="project_1.html">Project Design</a> |
+        <a href="peer_review1.html">Peer Review 1</a> |
+        <a href="peer_review2.html">Peer Review 2</a> |
+        <a href="Kidwai-Project/index.html">Client Project</a>
       </nav>
       <nav style="padding: 2%;">
-      <a href="stuff/KRAPPYCRAPPYWE.html">Crappy Website</a> |
+      <a href="stuff/KRAPPYCRAPPY WE.html">Crappy Website</a> |
       <a href="accessibility/Kidwai-Activity_Accessibility.html">Accessibility</a> |
       <a href="hobby/index.html">Hobby</a> |
       <a href="Kidwai-Activity11/Kidwai-Activity11.html">Accordion Widget</a> |
